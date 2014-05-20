@@ -34,7 +34,7 @@ $(document).ready(function(){
 			out +="</li>";
 		  }
 		  out += "</ul>";
-		  $("body").append('<div id="tooltip" style="top: '+(e.pageY+10)+'px; left: '+e.pageX+'px"><span id="tooltip_title">'+st+' ('+from+')</span><br/><br/>'+out+'<br/><a href="http://glosbe.com/en/it/'+st+'" target="_blank">More...</a></div>');
+		  $("body").append('<div id="tooltip" style="top: '+(e.pageY+10)+'px; left: '+e.pageX+'px"><span id="tooltip_title">'+st+' ('+from+')</span><br/><br/>'+out+'<br/><a class="tooltip_link" href="http://glosbe.com/en/it/'+st+'" target="_blank">More...</a></div>');
 	  });
 	});
 	$("body").on("click", function() {
