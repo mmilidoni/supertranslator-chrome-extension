@@ -1,4 +1,4 @@
-superdictionary-chrome-extension
-================================
+Super Translator
+================
 
-A double click words dictionary extension for Chrome browser.
+An extension for Google Chrome that translates words. To get word translated, you need to double click on body text of web pages.
