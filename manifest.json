@@ -1,0 +1,25 @@
+{
+  "name": "Super Translator",
+  "version": "0.1",
+  "manifest_version": 2,
+  
+  "description": "A double click words translator. It uses Glosbe (glosbe.com) to translate words.",
+  "icons": { 
+			"16": "dictionary16.png",
+           	"48": "dictionary48.png",
+          	"128": "dictionary.png"
+  },
+  
+  "permissions": [
+	  "http://glosbe.com/gapi/"
+  ],
+  
+  "content_scripts":
+  [
+    {
+      "matches": ["http://*/*", "https://*/*"], 
+      "js":  ["jquery.js", "actions.js"],	
+	  "css": ["style.css"]
+    }
+  ] 
+}

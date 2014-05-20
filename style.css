@@ -1,0 +1,38 @@
+#tooltip {
+	position:absolute; 
+	margin: 0;
+	line-height: 1;
+	border: 1px solid #ddd;
+	padding: 6px;
+	font-size: 10px;
+	background-color: #dff1ff;
+	color: #4079a6;
+	width: 300px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 5px 0px #222;
+	-webkit-box-shadow: 3px 3px 5px 0px #222;
+	-moz-box-shadow: 3px 3px 5px 0px #222;
+}
+
+#tooltip_title {
+	margin: 7px;
+	line-height: 1px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	font-size: 16px;
+}
+
+#tooltip_list {
+	margin: 0;
+	padding: 0;
+	margin-left: 25px;
+	list-style-type: square;
+	line-height:1;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: #4079a6;
+	text-decoration:underline;
+}
