@@ -3,7 +3,7 @@
   "version": "0.2",
   "manifest_version": 2,
   
-  "description": "An extension for Google Chrome that translates words. To get word translated, you need to double click on body text of web pages. It uses Glosbe (glosbe.com) API to translate words.",
+  "description": "This extension translates words with double click on texts of web pages. It uses Glosbe (glosbe.com) API to translate words.",
   "icons": { 
 			"16": "dictionary16.png",
            	"48": "dictionary48.png",
