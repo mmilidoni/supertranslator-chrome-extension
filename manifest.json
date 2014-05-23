@@ -1,6 +1,6 @@
 {
   "name": "Super Translator",
-  "version": "0.2",
+  "version": "0.2.1",
   "manifest_version": 2,
   
   "description": "Traduce singole parole presenti nelle pagine web. E' sufficiente eseguire doppio click sulla parola da tradurre.",
