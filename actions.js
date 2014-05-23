@@ -10,7 +10,7 @@ var getSelected = function(){
     } else if(document.selection) {
 	t = document.selection.createRange().text;
     }
-    return t.toString().trim();
+    return t.toString().trim().toLowerCase();
 }
 
 $(document).ready(function(){
